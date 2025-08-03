@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
-import { Search, Star, Heart, ShoppingBag, Sparkles } from 'lucide-react';
+import Image from 'next/image';
+import { Search, Star, Heart, ShoppingBag } from 'lucide-react';
 
 interface Product {
   id: number;
@@ -188,9 +189,11 @@ const ProductCard: React.FC<{
   return (
     <div className="group bg-white rounded-lg border border-gray-100 hover:border-gray-300 shadow-sm hover:shadow-md transition-all duration-300 transform hover:-translate-y-1 overflow-hidden">
       <div className="relative overflow-hidden">
-        <img
+        <Image
           src={product.image}
           alt={product.name}
+          width={400}
+          height={160}
           className="w-full h-40 object-cover group-hover:scale-105 transition-transform duration-500"
         />
         

@@ -1,7 +1,8 @@
 'use client';
 
 import React from 'react';
-import { ArrowRight, Star, ShoppingBag } from 'lucide-react';
+import Image from 'next/image';
+import { ArrowRight, Star } from 'lucide-react';
 
 const HeroSection: React.FC = () => {
   const categories = [
@@ -77,9 +78,11 @@ const HeroSection: React.FC = () => {
             >
               {/* Category Image */}
               <div className="relative h-48 overflow-hidden">
-                <img
+                <Image
                   src={category.image}
                   alt={category.name}
+                  width={400}
+                  height={300}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
                 
