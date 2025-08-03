@@ -348,7 +348,7 @@ const ProductsSection: React.FC<ProductsSectionProps> = ({
             <span> Products</span>
           </h2>
           <p className="text-base text-gray-600 font-medium max-w-2xl mx-auto" style={{ fontFamily: '"Inter", sans-serif' }}>
-            Handpicked items that everyone's talking about
+            Handpicked items that everyone&apos;s talking about
           </p>
         </div>
 

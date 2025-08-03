@@ -117,7 +117,7 @@ const HeroSection: React.FC = () => {
         {/* Call to Action */}
        <div className="text-center mt-6">
   <div className="bg-gradient-to-r from-purple-600 to-blue-600 rounded-xl p-4 text-white">
-    <h2 className="text-lg font-bold mb-2">Can't Find What You're Looking For?</h2>
+    <h2 className="text-lg font-bold mb-2">Can&apos;t Find What You&apos;re Looking For?</h2>
     <p className="text-purple-100 mb-3 text-sm max-w-md mx-auto">
       Explore our complete catalog or use our search to find exactly what you need.
     </p>
